@@ -1,91 +1,139 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.main{
-    width: 100%;
-    height: 1000px;
-    background-position: center;
-    background-size: cover;
-    background: linear-gradient(to bottom, rgb(0, 0, 0)40%, #5d5491);
+body {
+  display: flex;
+  flex-direction: column;
 }
-.navbar{
-    width: 100%;
-    height: 150px;
+.top-part {
+  width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(space.jpg);
+  background-repeat: no-repeat;
 }
-.headname h1{
-    font-family: arial;
-    font-size: 40px;
-    float: left;
-    padding-left: 500px;
-    padding-top: 50px;
-    color: white;
+.bgpic {
+  width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
 }
-.menu{
-    width: 400px;
-    height: 75px;
-    float: right;
-    padding-right: 600px;
+.navbar {
+  display: flex;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.headname h1 {
+  font-family: arial;
+  font-size: 40px;
+  float: left;
+  color: white;
 }
-ul li{
-    list-style: none;
-    margin-left: 50px;
-    padding-top: 70px;
-    font-size: 20px;
+ul {
+  float: right;
+  display: flex;
 }
-ul li a{
-    text-decoration: none;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.25s ease-in-out;
-    color: white;
+ul li {
+  list-style: none;
+  margin-left: 50px;
+  font-size: 20px;
 }
-ul li a:hover{
-    color: yellow;
+ul li a {
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.25s ease-in-out;
+  color: white;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+ul li a:hover {
+  color: yellow;
 }
-.content h1{
+.content {
+  object-fit: fill;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content h1 {
+  text-align: center;
+  justify-content: center;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  font-family: arial;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content h2 {
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.content p {
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.mid-part{
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+}
+.mid-part p{
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.bot-part{
+  width: 100%;
+  height: 850px;
+  background: linear-gradient(to bottom, rgb(0,0,0)1%, #5d5491);
+}
+.bot-part p{
     text-align: center;
-    justify-content: center;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 20px;
-    font-family: arial;
-    font-size: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.content h2{
-    text-align: center;
     color: white;
     margin-left: auto;
     margin-right: auto;
     font-family: arial;
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 20px;
 }
-.content p{
-    text-align: center;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: arial;
-    font-size: 20px;
-    padding-top: 20px;
+.footer{
+  width: 100%;
+  height: 150px;
+  background-color: black;
+}
+.footer p{
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 30px;
+  padding-top: 20px;
 }
