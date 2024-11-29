@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to bottom, rgb(0, 0, 0)30%, rgb(62, 0, 88));
+}
+.navbar{
+    width: 100%;
+    height: 150px;
+}
+.headname h1{
+    font-family: arial;
+    font-size: 40px;
+    float: left;
+    padding-left: 600px;
+    padding-top: 50px;
+    color: white;
+}
+.menu{
+    width: 400px;
+    height: 75px;
+    float: right;
+    padding-right: 700px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    padding-top: 70px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.25s ease-in-out;
+    color: white;
+}
+ul li a:hover{
+    color: yellow;
+}
