@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    display: flex;
+}
+
+.Container {
+    border-radius: 25px;
+    display: flex;
+    background-color: white;
+    width: 900px;
+    box-shadow: 0 10px 25px (rgba(0, 0, 0, 0.1));
+    overflow: hidden;
+
+}
+
+.leftside{
+    background: linear-gradient(135deg #ffffff #2a2b51);
+    padding: 40px 60px;
+    margin-bottom: 10px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Signup {
+    flex: 2;
+    display: flex;
+    flex-direction: column
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.form input{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.form input:focus{
+    display: inline-block;
+    outline: none;
+}
+
+.btn{
+    background: #2a2b51;
+    color: white;
+}
+
+.Login-link{
+    justify-content: center;
+    align-items: center;
+    color: #555;
+}
