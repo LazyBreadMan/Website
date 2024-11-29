@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    display: flex;
+}
+
+.Container {
+    border-radius: 25px;
+    display: flex;
+    background-color: #111111;
+    width: 900px;
+    box-shadow: 0 10px 25px (rgba(0, 0, 0, 0.1));
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 575px;
+
+}
+
+.leftside{
+    background: linear-gradient(225deg, #111111, #5d5491);
+    padding: 0 40px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.Signup {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1{
+    color: white;
+}
+
+p1{
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    color:  white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+.form input{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form input:focus{
+    display: inline-block;
+    outline: none;
+}
+
+.btn{
+    background: #5d5491;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.Login-link{
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}

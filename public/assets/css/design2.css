@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    display: flex;
+}
+
+.Container {
+    border-radius: 25px;
+    display: flex;
+    background-color: #111111;
+    width: 900px;
+    box-shadow: 0 10px 25px (rgba(0, 0, 0, 0.1));
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 575px;
+
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+h3{
+    font-size: 50px;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.Login {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+.form input{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form input:focus{
+    display: inline-block;
+    outline: none;
+}
+
+.btn1{
+    background: #5d5491;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    margin: auto;
+    ;
+}
+
+.btn2{
+    background: #5d5491;
+    color: white;
+    border-radius: 25px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.Login-link{
+    justify-content: center;
+    align-items: center;
+    color: #555;
+}
+
+.rightside{
+    background: linear-gradient(135deg, #111111, #5d5491);
+    padding: 0 40px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+
