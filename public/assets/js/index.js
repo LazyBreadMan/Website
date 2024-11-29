@@ -1,13 +1,16 @@
 function setupButton(){
-    const test_form = document.getElementById("test_from");
-
-    if(test_form){
-        const btn = document.getElementById("submit");
-        if(btn) {
-            btn.addEventListener("click", function(event) {
-                
-            })
-        }
+    const btn = document.getElementById("profile");
+    if(btn) {
+        btn.addEventListener("click", function(event) {
+            event.preventDefault();
+            const body = document.querySelector(".top-part");
+            body.style.transform = "translateY(100%)";
+            const account = document.querySelector(".account-transition");
+            account.style.transform = "translateY(0)";
+            window.setTimeout(function() {
+                window.location.href = 'signup.html';
+            }, 500)
+        })
     }
 }
 
