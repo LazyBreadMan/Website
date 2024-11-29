@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background: #333;
+    background: url(bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
@@ -16,7 +16,7 @@ body {
 .Container {
     border-radius: 25px;
     display: flex;
-    background-color: white;
+    background-color: #111111;
     width: 900px;
     box-shadow: 0 10px 25px (rgba(0, 0, 0, 0.1));
     overflow: hidden;
@@ -33,6 +33,11 @@ body {
 
 h3{
     font-size: 50px;
+    color: white;
+}
+
+h2{
+    color: white;
 }
 
 .Login {
@@ -60,6 +65,7 @@ h3{
     margin-bottom: 10px;
     text-align: center;
     font-size: 10px;
+    color: white;
 }
 
 .form input{
@@ -79,7 +85,7 @@ h3{
 }
 
 .btn1{
-    background: #2a2b51;
+    background: #5d5491;
     color: white;
     border-radius: 25px;
     width: 100%;
@@ -88,7 +94,7 @@ h3{
 }
 
 .btn2{
-    background: #2a2b51;
+    background: #5d5491;
     color: white;
     border-radius: 25px;
     width: 50%;
@@ -102,7 +108,7 @@ h3{
 }
 
 .rightside{
-    background: linear-gradient(135deg, #ffffff, #2a2b51);
+    background: linear-gradient(135deg, #111111, #5d5491);
     padding: 0 40px;
     margin-bottom: 10px;
     flex-direction: column;
@@ -113,6 +119,7 @@ h3{
     height: 100%;
     margin: auto;
     text-align: center;
+    color: white;
 }
 
 

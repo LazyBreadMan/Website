@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background: #333;
+    background: url(bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
@@ -16,7 +16,7 @@ body {
 .Container {
     border-radius: 25px;
     display: flex;
-    background-color: white;
+    background-color: #111111;
     width: 900px;
     box-shadow: 0 10px 25px (rgba(0, 0, 0, 0.1));
     overflow: hidden;
@@ -27,7 +27,7 @@ body {
 }
 
 .leftside{
-    background: linear-gradient(225deg, #ffffff, #2a2b51);
+    background: linear-gradient(225deg, #111111, #5d5491);
     padding: 0 40px;
     margin-bottom: 10px;
     flex-direction: column;
@@ -49,13 +49,24 @@ body {
     height: 100%;
 }
 
+h1{
+    color: white;
+}
+
+p1{
+    color: white;
+
+}
+
 h2{
     text-align: center;
+    color: white;
 }
 
 .signup-form{
     display: flex;
     flex-direction: column;
+    color:  white;
 }
 
 .form{
@@ -71,6 +82,7 @@ h2{
     margin-bottom: 10px;
     text-align: center;
     font-size: 10px;
+    color: white;
 }
 
 .form input{
@@ -90,7 +102,7 @@ h2{
 }
 
 .btn{
-    background: #2a2b51;
+    background: #5d5491;
     color: white;
     border-radius: 25px;
     width: 100%;
@@ -99,8 +111,13 @@ h2{
 .Login-link{
     justify-content: center;
     align-items: center;
-    color: #555;
+    color: #777;
     margin-top: 10px;
     font-size: 10px;
     text-align: center;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
 }
